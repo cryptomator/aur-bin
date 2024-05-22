@@ -41,7 +41,7 @@ options=('!strip')
 validpgpkeys=('58117AFA1F85B3EEC154677D615D449FE6E6A235')
 
 package() {
-  install -Dm755 "${srcdir}/cryptomator-${pkgver}-${pkgrel}-${arch}.AppImage" "${pkgdir}/opt/${pkgname}/cryptomator-${pkgver}-${arch}.AppImage"
+  install -Dm755 "${srcdir}/cryptomator-${pkgver}-${pkgrel}-${CARCH}.AppImage" "${pkgdir}/opt/${pkgname}/cryptomator-${pkgver}-${CARCH}.AppImage"
   install -Dm644 "${srcdir}/cryptomator-vault.xml" "${pkgdir}/usr/share/mime/packages/cryptomator-vault.xml"
   install -Dm644 "${srcdir}/org.cryptomator.Cryptomator.desktop" "${pkgdir}/usr/share/applications/org.cryptomator.Cryptomator.desktop"
   install -Dm644 "${srcdir}/org.cryptomator.Cryptomator.png" "${pkgdir}/usr/share/icons/hicolor/scalable/apps/org.cryptomator.Cryptomator.png"
@@ -52,5 +52,5 @@ package() {
   install -Dm644 "${srcdir}/org.cryptomator.Cryptomator.tray-unlocked.svg" "${pkgdir}/usr/share/icons/hicolor/symbolic/apps/org.cryptomator.Cryptomator.tray-unlocked-symbolic.svg"
 
   mkdir -p "${pkgdir}/usr/bin/"
-  ln -s "/opt/${pkgname}/cryptomator-${pkgver}-${arch}.AppImage" "${pkgdir}/usr/bin/cryptomator"
+  ln -s "/opt/${pkgname}/cryptomator-${pkgver}-${CARCH}.AppImage" "${pkgdir}/usr/bin/cryptomator"
 }
