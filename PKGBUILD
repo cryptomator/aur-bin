@@ -2,9 +2,10 @@
 # Contributor: Morten Linderud <morten@linderud.pw>
 # Contributor: Sebastian Stenzel <sebastian.stenzel@gmail.com>
 # Contributor: Julian Raufelder <arch@raufelder.com>
+# Contributor: Armin Schrenk <armin.schrenk@skymatic.de>
 
 pkgname=cryptomator-bin
-pkgver=1.14.0
+pkgver=1.14.2
 pkgrel=1
 pkgdesc="Multiplatform transparent client-side encryption of your files in the cloud."
 arch=('x86_64' 'aarch64')
@@ -32,9 +33,9 @@ sha256sums=('53c509fe54ef1c5c28b469d86291536649367fb2030b2c0fb3101da2031f8e6e'
             '6286d0a409389bc3542ccad53552f85ec5d05422e0c855342304194fd36ccdba'
             '0f815a749d2299ef68b1662e0d5532de96b6b66b5b31cc6aa98a8ae913ccf8be'
             '78537ead26dcc1488d7fff02f47fce559f70f9bb2d7fa7fa1741ad3cd151bfad')
-sha256sums_x86_64=('75441a3b68dead7974b04ff312006421faa33c528c4f627b69f4b6f883548ffc'
+sha256sums_x86_64=('ab819b4da5f8ec165ff2072266a4767c2ca781043c4e40efd001f8fc09cf31a1'
                    'SKIP')
-sha256sums_aarch64=('c3eebf773d026387bf96f4540299a8fce382dca349ade225c96e8f80f2a5e92c'
+sha256sums_aarch64=('f7447a3728098b415645fe56e2cc1f2866017fa95181b26d164a847d976c446d'
                     'SKIP')
 options=('!strip')
 
