@@ -30,8 +30,8 @@ pkgbase = cryptomator-bin
 	source_x86_64 = cryptomator-1.17.0-1-x86_64.AppImage.asc::https://github.com/cryptomator/cryptomator/releases/download/1.17.0/cryptomator-1.17.0-x86_64.AppImage.asc
 	sha256sums_x86_64 = 23f49677736c1f99faf2ebff7f6d1d76d42e951c0658f2fd3b90d806462c6496
 	sha256sums_x86_64 = SKIP
-	source_aarch64 = cryptomator-1.15.3-1-aarch64.AppImage::https://github.com/cryptomator/cryptomator/releases/download/1.17.0/cryptomator-1.17.0-aarch64.AppImage
-	source_aarch64 = cryptomator-1.15.3-1-aarch64.AppImage.asc::https://github.com/cryptomator/cryptomator/releases/download/1.17.0/cryptomator-1.17.0-aarch64.AppImage.asc
+	source_aarch64 = cryptomator-1.17.0-1-aarch64.AppImage::https://github.com/cryptomator/cryptomator/releases/download/1.17.0/cryptomator-1.17.0-aarch64.AppImage
+	source_aarch64 = cryptomator-1.17.0-1-aarch64.AppImage.asc::https://github.com/cryptomator/cryptomator/releases/download/1.17.0/cryptomator-1.17.0-aarch64.AppImage.asc
 	sha256sums_aarch64 = faf0dda2a4e8893385b80079e9afb9a277ca6cc43ec0d3df7ca5536fcc02cd96
 	sha256sums_aarch64 = SKIP
 
